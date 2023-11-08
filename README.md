@@ -36,6 +36,9 @@ npm install
 npm run build
 ```
 
+### callback URL
+After install, you can use URL: `https://yourdomain.com/api/callbacks/demo-app` in the spinshield backoffice, you can change the callback path in `routes/api.php`.
+
 ### nginx
 Check NGINX.MD for a straight forward NGINX setup for Laravel.
 
