@@ -36,6 +36,17 @@ npm install
 npm run build
 ```
 
+### npm
+This project requires node & (n)pm. If you need to install npm/pnpm:
+```bash
+curl https://get.volta.sh | bash
+volta install node
+volta install pnpm
+pnpm run build
+```
+
+After installing pnpm make sure to use `pnpm install` & `pnpm run build` within the project directory instead.
+
 ### callback URL
 After install, you can use URL: `https://yourdomain.com/api/callbacks/demo-app` in the spinshield backoffice, you can change the callback path in `routes/api.php`.
 
